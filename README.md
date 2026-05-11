@@ -1,6 +1,5 @@
 # DTDM_DungNT_B22DCVT092
-Dự án triển khai ứng dụng web Node.js theo mô hình phân tán 3 lớp (3-Tier Architecture) trên hạ tầng Microsoft Azure, sử dụng Docker 
-để container hóa và MongoDB Atlas làm cơ sở dữ liệu đám mây.
+Dự án triển khai ứng dụng web Node.js theo mô hình phân tán 3 lớp (3-Tier Architecture) trên hạ tầng Microsoft Azure, sử dụng Docker để container hóa và MongoDB Atlas làm cơ sở dữ liệu đám mây.
 ----------------------------------------------------------------------------------------------------------------------------------
 System Architecture
   Hệ thống được thiết kế để đảm bảo tính sẵn sàng cao và khả năng mở rộng:
