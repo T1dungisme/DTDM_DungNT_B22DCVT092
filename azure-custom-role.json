@@ -1,0 +1,24 @@
+{
+    "properties": {
+        "roleName": "MunLish_Operator_Role",
+        "description": "Chỉ cho phép xem trạng thái và khởi động lại máy ảo Nodejs-server. Cấm quyền xóa tài nguyên.",
+        "assignableScopes": [
+            "/subscriptions/c86f7519-f583-4360-bc09-12168b5675f1/resourceGroups/Nodejs-Server_group"
+        ],
+        "permissions": [
+            {
+                "actions": [
+                    "Microsoft.Compute/*/read",
+                    "Microsoft.Compute/virtualMachines/start/action",
+                    "Microsoft.Compute/virtualMachines/restart/action"
+                ],
+                "notActions": [
+                    "Microsoft.Compute/virtualMachines/delete",
+                    "Microsoft.Network/networkSecurityGroups/write"
+                ],
+                "dataActions": [],
+                "notDataActions": []
+            }
+        ]
+    }
+}
